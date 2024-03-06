@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.luma.utility.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.luma.testcases.SearchResultPageTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="teardown"/>
+          <include name="productAvailibilityTest" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.luma.testcases.SearchResultPageTest -->
+      <class name="com.luma.testcases.AddToCartPageTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+          <include name="AddToCartPageBeforeClickTest" invocation-numbers="0"/>
+          <include name="teardown"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.luma.testcases.AddToCartPageTest -->
+      <class name="com.luma.testcases.OrderPageTest">
+        <methods>
+          <include name="loadConfig"/>
+          <include name="teardown"/>
+          <include name="verifyTotalPriceTest"/>
+          <include name="setup"/>
+          <include name="verifyShoppingCartTest"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.luma.testcases.OrderPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
