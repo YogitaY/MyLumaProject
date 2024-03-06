@@ -1,4 +1,5 @@
-**Luma Automation Framework 🚀**
+
+**Luma Cloth Shopping Automation Project 🚀**
 
 The "Luma Demo Store Automation Project" is a project utilizing the Selenium tool 💻 for automating tasks on a demo e-commerce store. 
 This project is built using the Java programming language 💻 and is designed to help improve the efficiency and accuracy 🎯 of various tasks performed on the Luma Demo Store website. 
