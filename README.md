@@ -10,9 +10,9 @@ It enables you to write scenario in Java 💻 that run against real browsers, in
 
 **Tech stack 🛠️**
 
-Java 21 💻
-Maven 🔧
-Selenium 🔧
+Java ☕
+Maven 📦
+Selenium ✨
 TestNG 🧪
 Log4j 💻
 Extent Report 📊
